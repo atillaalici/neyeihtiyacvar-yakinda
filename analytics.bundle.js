@@ -124,5 +124,5 @@
   }
 
   // analytics-entry.js
-  inject();
+  inject({ mode: "production" });
 })();
